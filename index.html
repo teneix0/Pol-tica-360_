@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title>Política 360°</title> 
+
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body {
+background-color: #f3f5f8;
+color: #18243a;
+font-family: Arial, sans-serif;
+} 
+
+header {
+background-color: #101d35;
+color: white;
+padding: 25px 8%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+header h1 {
+font-size: 27px;
+color: #e5bd69;
+} 
+
+nav a {
+color: white;
+text-decoration: none;
+margin-left: 22px;
+font-size: 14px;
+} 
+
+nav a:hover {
+color: #e5bd69;
+} 
+
+.hero {
+background: linear-gradient(
+120deg,
+#101d35,
+#243e63
+);
+color: white;
+padding: 100px 8%;
+} 
+
+.hero span {
+color: #e5bd69;
+letter-spacing: 3px;
+font-size: 13px;
+} 
+
+.hero h2 {
+font-size: 52px;
+max-width: 650px;
+margin: 20px 0;
+} 
+
+.hero p {
+color: #d1d9e5;
+max-width: 550px;
+line-height: 1.8;
+} 
+
+.botao {
+display: inline-block;
+margin-top: 28px;
+padding: 14px 25px;
+background-color: #e5bd69;
+color: #101d35;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+} 
+
+main {
+padding: 65px 8%;
+} 
+
+.titulo {
+font-size: 30px;
+margin-bottom: 12px;
+} 
+
+.descricao {
+color: #68758a;
+margin-bottom: 35px;
+} 
+
+.cards {
+display: grid;
+grid-template-columns: repeat(
+auto-fit,
+minmax(220px, 1fr)
+);
+gap: 22px;
+} 
+
+.card {
+background-color: white;
+padding: 28px;
+border-radius: 12px;
+border: 1px solid #e3e8ef;
+transition: 0.3s;
+} 
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 12px 30px #172b4515;
+} 
+
+.card h3 {
+color: #19365c;
+margin-bottom: 14px;
+} 
+
+.card p {
+color: #68758a;
+line-height: 1.7;
+} 
+
+.reflexao {
+background-color: #e5bd69;
+padding: 55px 8%;
+text-align: center;
+} 
+
+.reflexao h2 {
+font-size: 30px;
+margin-bottom: 15px;
+} 
+
+.reflexao p {
+max-width: 650px;
+margin: auto;
+line-height: 1.8;
+} 
+
+footer {
+background-color: #101d35;
+color: #cbd3df;
+text-align: center;
+padding: 28px;
+font-size: 13px;
+} 
+
+@media (max-width: 650px) {
+header {
+flex-direction: column;
+gap: 20px;
+} 
+
+nav a {
+margin: 0 6px;
+font-size: 12px;
+} 
+
+.hero h2 {
+font-size: 36px;
+}
+}
+</style>
+</head> 
+
+<body> 
+
+<header>
+<h1>POLÍTICA 360°</h1> 
+
+<nav>
+<a href="#inicio">Início</a>
+<a href="#conceitos">Conceitos</a>
+<a href="#poderes">Poderes</a>
+</nav>
+</header> 
+
+<section class="hero" id="inicio">
+<span>CONHECIMENTO • DEMOCRACIA • SOCIEDADE</span> 
+
+<h2>Entenda a política. Transforme sua visão.</h2> 
+
+<p>
+A política está presente em nossas vidas.
+Conheça como funciona o governo, a democracia,
+as instituições e o papel de cada cidadão.
+</p> 
+
+<a href="#conceitos" class="botao">
+Explorar conteúdo
+</a>
+</section> 
+
+<main id="conceitos"> 
+
+<h2 class="titulo">O universo da política</h2> 
+
+<p class="descricao">
+Conheça alguns dos principais conceitos políticos.
+</p> 
+
+<div class="cards"> 
+
+<div class="card">
+<h3>Democracia</h3>
+<p>
+Sistema em que o poder político é exercido
+pelo povo, diretamente ou por representantes
+eleitos.
+</p>
+</div> 
+
+<div class="card">
+<h3>Constituição</h3>
+<p>
+Lei fundamental de um país, que estabelece
+direitos, deveres e a organização do Estado.
+</p>
+</div> 
+
+<div class="card">
+<h3>Ideologias</h3>
+<p>
+Conjuntos de ideias e princípios que orientam
+diferentes visões sobre a sociedade e o governo.
+</p>
+</div> 
+
+<div class="card">
+<h3>Cidadania</h3>
+<p>
+Participação na sociedade, com direitos,
+responsabilidades e envolvimento nas decisões
+coletivas.
+</p>
+</div> 
+
+</div> 
+
+</main> 
+
+<section class="reflexao" id="poderes"> 
+
+<h2>Os três poderes</h2> 
+
+<p>
+Executivo: administra o país.
+Legislativo: cria e fiscaliza as leis.
+Judiciário: interpreta e aplica as leis.
+Cada poder possui funções próprias e mecanismos
+de controle sobre os demais.
+</p> 
+
+</section> 
+
+<footer>
+<p>POLÍTICA 360° | Conhecimento para todos.</p>
+<p>Educação política • Informação • Cidadania</p>
+</footer> 
+
+</body>
+</html>
